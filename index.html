@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+
+    <title>WEBPAGE</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="input-div">
+        <textarea id="input-box" rows="8" cols="50" class="inputBox">
+Summarize the Text</textarea
+        >
+      </div>
+
+      <div id="button-div" style="display: flex; justify-content: center; padding: 5px; ">
+        <button type="button" onclick="summarizeButtonClicked()">Summarize</button>
+      </div>
+
+      <div id="output-div" class="outputDiv" >
+        <textarea id="output-box"  readonly rows="8" cols="50" class="outputBox">output box</textarea>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

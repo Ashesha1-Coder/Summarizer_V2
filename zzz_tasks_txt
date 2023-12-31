@@ -1,0 +1,16 @@
+
+
+
+Text area, 
+button niche -- center
+outputBox - hidden
+
+BUtton on click working,
+Redaing input
+disable typing
+
+summarize:
+    read from inputBox
+    {--- sumarize  ---}
+    Insert in outBox
+    show outBox
